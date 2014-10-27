@@ -1,11 +1,13 @@
-package com.example.hollywood;
+package com.example.hollywood.activity;
 
-import android.support.v7.app.ActionBarActivity;
+import com.example.hollywood.R;
+
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
