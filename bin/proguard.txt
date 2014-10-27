@@ -45,6 +45,13 @@
 # view res/layout/abc_search_view.xml #generated:85
 -keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
 
-# view AndroidManifest.xml #generated:16
--keep class com.example.hollywood.MainActivity { <init>(...); }
+# view AndroidManifest.xml #generated:17
+# view AndroidManifest.xml #generated:28
+-keep class com.example.hollywood.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.example.hollywood.activity.RegistrationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:11
+-keep class com.example.hollywood.app.HBWoodApp { <init>(...); }
 
