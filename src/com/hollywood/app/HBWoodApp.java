@@ -1,4 +1,4 @@
-package com.example.hollywood.app;
+package com.hollywood.app;
 
 import android.app.Application;
 

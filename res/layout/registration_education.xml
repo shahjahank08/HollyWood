@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:id="@+id/skipLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_green_light" />
+
+    <ImageView
+        android:id="@+id/hollyWood_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/title" />
+
+    <TextView
+        android:id="@+id/hbText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/skipLogin"
+        android:layout_marginBottom="39dp"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:gravity="center"
+        android:minLines="3"
+        android:text="Play till you drop or your energy meter drops to zero :)"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/battery_levels_07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/hbText"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="93dp"
+        android:background="@drawable/battery_levels_07"
+        android:paddingLeft="20dip" />
+
+    <ImageView
+        android:id="@+id/battery_levels_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/battery_levels_07"
+        android:layout_marginRight="24dp"
+        android:layout_toLeftOf="@+id/battery_levels_07"
+        android:background="@drawable/battery_levels_12" />
+
+</RelativeLayout>

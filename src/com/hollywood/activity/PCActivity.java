@@ -1,4 +1,4 @@
-package com.example.hollywood.activity;
+package com.hollywood.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
